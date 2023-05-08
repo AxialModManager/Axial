@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axial.Thunderstore", "Axial.Thunderstore\Axial.Thunderstore.csproj", "{75E52DCF-7561-47AA-BA04-F0E4F3D49485}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axial", "Axial\Axial.csproj", "{F1F45B18-69EF-44FB-8031-47122148A1E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axial.Android", "Axial.Android\Axial.Android.csproj", "{E4F50768-9243-4F49-8C7F-009BB05E9417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axial.Desktop", "Axial.Desktop\Axial.Desktop.csproj", "{64DD530F-B9EB-41F0-9D5E-CEA075780F2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{75E52DCF-7561-47AA-BA04-F0E4F3D49485}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75E52DCF-7561-47AA-BA04-F0E4F3D49485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75E52DCF-7561-47AA-BA04-F0E4F3D49485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F45B18-69EF-44FB-8031-47122148A1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F45B18-69EF-44FB-8031-47122148A1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F45B18-69EF-44FB-8031-47122148A1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F45B18-69EF-44FB-8031-47122148A1E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F50768-9243-4F49-8C7F-009BB05E9417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F50768-9243-4F49-8C7F-009BB05E9417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F50768-9243-4F49-8C7F-009BB05E9417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F50768-9243-4F49-8C7F-009BB05E9417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DD530F-B9EB-41F0-9D5E-CEA075780F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DD530F-B9EB-41F0-9D5E-CEA075780F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DD530F-B9EB-41F0-9D5E-CEA075780F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DD530F-B9EB-41F0-9D5E-CEA075780F2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
