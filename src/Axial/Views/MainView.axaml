@@ -3,7 +3,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="clr-namespace:Axial.ViewModels"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
              x:Class="Axial.Views.MainView"
              x:DataType="vm:MainViewModel">
   <Design.DataContext>
@@ -11,6 +11,55 @@
          to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
     <vm:MainViewModel />
   </Design.DataContext>
-
-  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    
+  <Panel Background="#222222">
+      <StackPanel>
+          <DockPanel HorizontalAlignment="Stretch">
+              <StackPanel DockPanel.Dock="Left" Orientation="Horizontal" Margin="10 30 10 10" Spacing="3">
+                  <Image Margin="10 0 0 0" HorizontalAlignment="Left" Width="125" Source="/Assets/Axial.png"></Image>
+                  <TextBlock VerticalAlignment="Bottom" FontSize="12" Margin="0 0 0 -2" HorizontalAlignment="Left" Text="v0.1.0"></TextBlock>
+              </StackPanel>
+          </DockPanel>
+      
+          <TabControl TabStripPlacement="Left">
+              <TabItem IsEnabled="False" FontSize="15" Background="#333333" Margin="0 0 20 0">
+                  <TabItem.Header>
+                      <StackPanel Orientation="Horizontal" Spacing="10">
+                          <Image Source="/Assets/Marrow1.png" Height="20"></Image>
+                          <TextBlock FontWeight="Bold" Foreground="whitesmoke" Text="Marrow"></TextBlock>
+                      </StackPanel>
+                  </TabItem.Header>
+              </TabItem>
+              <TabItem FontSize="15" Header="Mods" Background="#333333">
+                  <TextBlock>Hello</TextBlock>
+              </TabItem>
+              <TabItem FontSize="15" Header="Download" Background="#333333">
+                  <TextBlock>Hello</TextBlock>
+              </TabItem>
+              <TabItem FontSize="15" Header="Manual Install" Background="#333333">
+                  <TextBlock>Hello</TextBlock>
+              </TabItem>
+              <TabItem IsEnabled="False" FontSize="15" Background="#333333">
+                  <TabItem.Header>
+                      <StackPanel Orientation="Horizontal" Spacing="10">
+                          <Image Source="/Assets/ML_Icon.png" Width="20"></Image>
+                          <TextBlock FontWeight="Bold" Foreground="WhiteSmoke" Text="Melon Loader"></TextBlock>
+                      </StackPanel>
+                  </TabItem.Header>
+              </TabItem>
+              <TabItem IsSelected="True" FontSize="15" Header="Mods" Background="#333333">
+                  <TextBlock>Placeholder</TextBlock>
+              </TabItem>
+              <TabItem FontSize="15" Header="Download" Background="#333333">
+                  <TextBlock>Hello</TextBlock>
+              </TabItem>
+              <TabItem FontSize="15" Header="Manual Install" Background="#333333">
+                  <TextBlock>Hello</TextBlock>
+              </TabItem>
+              <TabItem FontSize="15" Header="Logs" Background="#333333">
+                  <TextBlock>Hello</TextBlock>
+              </TabItem>
+          </TabControl>
+      </StackPanel>
+  </Panel>
 </UserControl>
